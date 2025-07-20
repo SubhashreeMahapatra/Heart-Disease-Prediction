@@ -1,0 +1,3 @@
+[2025-07-20 12:16:04,542] 65 root - INFO - Dataframe created
+[2025-07-20 12:16:04,997] 89 root - INFO - Error in load_object function in utils
+[2025-07-20 12:16:04,997] 31 root - INFO - Error occured in predict function in prediction pipleine

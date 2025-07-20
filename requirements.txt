@@ -1,0 +1,14 @@
+pandas 
+numpy
+seaborn
+matplotlib
+sqlalchemy
+mysql-connector-python
+scikit-learn
+xgboost
+imbalanced-learn
+joblib
+flask
+datetime
+streamlit
+-e.

@@ -1,0 +1,31 @@
+[2025-07-18 10:20:29,665] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-07-18 10:20:31,704] 32 root - INFO - Data Ingestion method started
+[2025-07-18 10:20:33,546] 42 root - INFO - Copy of dataset stored in dataset folder as a csv file
+[2025-07-18 10:20:33,693] 37 root - INFO - Dataset read as pandas dataframe
+[2025-07-18 10:20:34,030] 41 root - INFO - Train Test split
+[2025-07-18 10:20:34,436] 47 root - INFO - Ingestion of data is complete
+[2025-07-18 10:20:34,601] 85 root - INFO - Read train and test data completed
+[2025-07-18 10:20:34,617] 86 root - INFO - Train Dataframe Head: 
+   age  gender smoking_status  systolic_bp  cholesterol diabetes   chest_pain_type  heart_disease
+0   76    Male        Current          146          176      Yes  Non-anginal Pain              1
+1   69    Male         Former          173          170       No  Non-anginal Pain              0
+2   53  Female        Current          160          238      Yes   Atypical Angina              1
+3   51  Female         Former          106          256      Yes    Typical Angina              1
+4   40  Female          Never          168          238       No      Asymptomatic              0
+[2025-07-18 10:20:34,621] 87 root - INFO - Test Dataframe Head: 
+   age  gender smoking_status  systolic_bp  cholesterol diabetes   chest_pain_type  heart_disease
+0   73  Female         Former           94          153      Yes      Asymptomatic              0
+1   66    Male          Never          169          193       No      Asymptomatic              0
+2   41    Male         Former          107          269       No  Non-anginal Pain              0
+3   38  Female         Former          128          220       No      Asymptomatic              0
+4   64    Male        Current          130          181      Yes  Non-anginal Pain              1
+[2025-07-18 10:20:34,621] 89 root - INFO - Obtaining preprocessing object
+[2025-07-18 10:20:34,621] 34 root - INFO - Data Transformation Initiated
+[2025-07-18 10:20:34,621] 46 root - INFO - Pipeline Initiated
+[2025-07-18 10:20:34,621] 70 root - INFO - Pipeline Completed
+[2025-07-18 10:20:34,875] 105 root - INFO - Applying preprocessing object on training and testing datasets
+[2025-07-18 10:20:34,892] 116 root - INFO - Preprocessor pickle file saved
+[2025-07-18 10:20:34,897] 32 root - INFO - Separating the dependent and independent variables
+[2025-07-18 10:43:01,672] 46 root - INFO - Model Report: {'Logistic Regression': {'Accuracy': 0.8753666666666666, 'Precision': 0.8470110573600553, 'Recall': 0.8328378493162321, 'F1 Score': 0.8398646622981712}, 'Random Forest': {'Accuracy': 1.0, 'Precision': 1.0, 'Recall': 1.0, 'F1 Score': 1.0}, 'SVM': {'Accuracy': 0.9664333333333334, 'Precision': 0.9598496497522638, 'Recall': 0.9543871570542767, 'F1 Score': 0.9571106094808126}, 'XGBoost': {'Accuracy': 1.0, 'Precision': 1.0, 'Recall': 1.0, 'F1 Score': 1.0}}
+[2025-07-18 10:43:01,673] 54 root - INFO - The best model is Random Forest, with F1 Score: 1.0
+[2025-07-18 10:43:01,673] 62 root - ERROR - Error occurred during model training

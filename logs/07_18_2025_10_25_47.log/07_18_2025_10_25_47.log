@@ -1,0 +1,28 @@
+[2025-07-18 10:25:49,532] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2025-07-18 10:25:52,179] 32 root - INFO - Data Ingestion method started
+[2025-07-18 10:25:53,685] 42 root - INFO - Copy of dataset stored in dataset folder as a csv file
+[2025-07-18 10:25:53,843] 37 root - INFO - Dataset read as pandas dataframe
+[2025-07-18 10:25:54,209] 41 root - INFO - Train Test split
+[2025-07-18 10:25:54,616] 47 root - INFO - Ingestion of data is complete
+[2025-07-18 10:25:54,796] 85 root - INFO - Read train and test data completed
+[2025-07-18 10:25:54,812] 86 root - INFO - Train Dataframe Head: 
+   age  gender smoking_status  systolic_bp  cholesterol diabetes   chest_pain_type  heart_disease
+0   76    Male        Current          146          176      Yes  Non-anginal Pain              1
+1   69    Male         Former          173          170       No  Non-anginal Pain              0
+2   53  Female        Current          160          238      Yes   Atypical Angina              1
+3   51  Female         Former          106          256      Yes    Typical Angina              1
+4   40  Female          Never          168          238       No      Asymptomatic              0
+[2025-07-18 10:25:54,816] 87 root - INFO - Test Dataframe Head: 
+   age  gender smoking_status  systolic_bp  cholesterol diabetes   chest_pain_type  heart_disease
+0   73  Female         Former           94          153      Yes      Asymptomatic              0
+1   66    Male          Never          169          193       No      Asymptomatic              0
+2   41    Male         Former          107          269       No  Non-anginal Pain              0
+3   38  Female         Former          128          220       No      Asymptomatic              0
+4   64    Male        Current          130          181      Yes  Non-anginal Pain              1
+[2025-07-18 10:25:54,816] 89 root - INFO - Obtaining preprocessing object
+[2025-07-18 10:25:54,816] 34 root - INFO - Data Transformation Initiated
+[2025-07-18 10:25:54,816] 46 root - INFO - Pipeline Initiated
+[2025-07-18 10:25:54,816] 70 root - INFO - Pipeline Completed
+[2025-07-18 10:25:55,069] 105 root - INFO - Applying preprocessing object on training and testing datasets
+[2025-07-18 10:25:55,075] 116 root - INFO - Preprocessor pickle file saved
+[2025-07-18 10:25:55,080] 32 root - INFO - Separating the dependent and independent variables

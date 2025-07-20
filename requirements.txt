@@ -8,7 +8,5 @@ scikit-learn
 xgboost
 imbalanced-learn
 joblib
-flask
 datetime
 streamlit
--e.

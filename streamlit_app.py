@@ -1,3 +1,6 @@
+import os
+project_root = os.path.dirname(os.path.abspath(_file_))
+preprocessor_path = os.path.join(project_root, 'datalog', 'preprocessor.pkl')
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt

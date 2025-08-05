@@ -17,8 +17,8 @@ class PredictPipeline:
 
     def predict(self, features):
         try:
-            preprocessor_path = os.path.join('datalog', 'preprocessor.pkl')
-            model_path = os.path.join('datalog', 'model.pkl')
+            preprocessor_path = os.path.join('Datalog', 'preprocessor.pkl')
+            model_path = os.path.join('Datalog', 'model.pkl')
 
             preprocessor = load_obj(preprocessor_path)
             model = load_obj(model_path)
